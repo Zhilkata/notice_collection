@@ -4,7 +4,7 @@ from datetime import date
 
 year = date.today().year
 month = date.today().month
-day = date.today().day - 3
+day = date.today().day - 1
 
 
 class NoticeSpider(scrapy.Spider):
